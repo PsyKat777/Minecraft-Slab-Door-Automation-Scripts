@@ -2,6 +2,9 @@
 This is a set of two Python scripts, door_opener.py and door_closer.py, that can be used to partly automate slab doors in Minecraft.
 
 For context, I invented a type of door in Minecraft that uses slabs to operate. This is not at all required to make them, but can significantly speed up the process. I believe that most people will be coming here from the tutorial, but if you somehow got HERE first, I'd recommend taking a look at the tutorial (URL: [NONEXISTENT CURRENTLY]). None of this will make sense without that tutorial.
+
 Anyways, these two scripts assume that you want 3x3 doors with iron blocks. If you want doors of a different size, shape, or block type, you'll have to make them manually or modify these scripts to accomodate that. If you run them, they will ask for two coordinates: a bottom corner coordinate and a top corner coordinate. These are meant to enclose the 3x3 area where the door will be. It will also ask for a text document that it can output the commands to; it should create one if it doesn't already exist.
+
 After the needed information is input, the script will then output a series of commands into the given text document. Depending on which script you ran, it will output commands for opening or closing the door. A double indent in the text document signifies that a delay is to be added between the two commands. This series of commands can be copy-pasted into command blocks or a datapack in order to get them to create a slab door.
+
 These scripts are public domain as far as I care. Use them, modify them, distribute them, whatever, however you want to.
